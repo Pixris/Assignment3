@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cat Toys</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+
+    .* {
+      box-sizing: border-box;
+    }
+      
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    
+    h1, h2, p {
+      font-family: "Sans-serif";
+      letter-spacing: 1px;
+    }
+      
+    .nav {
+      height: 50px;
+      border-bottom: 1px solid rosybrown;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-right {
+      font-family: sans-serif;      
+      display: flex;
+      margin-left: auto;
+    }
+
+    .nav-item {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+      
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #ebd6c0;
+      color: brown;
+    }
+    
+    a {
+    color: brown;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color:rosybrown; 
+    text-decoration:none; 
+    cursor:pointer;  
+    }
+      
+    .main {
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
+
+    .column {
+      float: left;
+      width: 20%;
+      padding: 35px;
+    }  
+      
+    .row {margin: 0 -5px;}
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+      
+    .copyright {
+      padding: 15px;
+      text-align: left;
+      background: #ebd6c0;
+    }
+    
+    figcaption {
+      text-align: left;
+      color: brown;
+    }
+
+  </style>
+</head>
+
+<body style='background-color: #fff3e6;'>
+  <div class="nav">
+    <div class="company-name">
+      <a href='index.html'><img src='logo.jpg' width="130px", height="50px"></a>
+    </div>
+    <div class="nav-right">
+      <div class="nav-item"><a href='toypage.html'>Cat's must-haves</a></div>
+      <div class="nav-item"><a href='contact.html'>Contact</a></div>
+    </div>
+  </div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Cat Food and more</h1>
+  <p>Caddiction cat food and snacks are made with organic ingredients that are hand-picked by the best nutritionists.<br>We are proud to tell you that ingredients also include antibiotic-free chicken, ahi tuna and wild Alaskan salmon.<br>Caddiction dry & wet cat foods are also grain and gluten free!</p><br><p>psst... did we mention everything qualifies for FREE SHIPPING? No minimum order</p>
+</div>
+
+<!-- content -->
+  <div class="row">
+    <div class="column">
+      <img src='wheel.jpg' width="300px" height="300px" alt='Cat on a cat wheel'>
+        <figcaption>Wooden cat wheel<br>
+          $79.99 + tax</figcaption>
+    </div>
+    <div class="column">
+      <img src='litter.jpg' width="300px" height="300px" alt='cardboard box with a lid'>
+        <figcaption>XL hooded litter box with top entrance<br>
+          $39.99 + tax</figcaption>
+    </div>
+    <div class="column">
+      <img src='nip.jpg' width="300px" height="300px" alt='catnip jar'>
+        <figcaption>Caddiction organic catnip<br>
+          $17.99 + tax</figcaption>
+    </div>
+    <div class="column">    
+      <img src='kibble.jpg' width="300px" height="300px" alt='kibbles'>
+        <figcaption>Organic dry cat food 5kg bag<br>
+          $45.99 + tax</figcaption>
+    </div>
+    <div class="column">    
+      <img src='can1.jpg' width="300px" height="300px" alt='wet food for kitten'>
+        <figcaption>KITTEN wet food chicken in gravy<br>
+          $2.99/can + tax</figcaption>
+    </div>
+    <div class="column">    
+      <img src='wetfoodbox.jpg' width="300px" height="300px" alt='cardboard box with a lid'>
+        <figcaption>Wet food for cats with sensitive tummy<br> 3oz. Count of 24<br>
+          $39.99/box + tax</figcaption>
+    </div>
+    <div class="column">    
+      <img src='tunasauce.jpg' width="300px" height="300px" alt='cardboard box with a lid'>
+        <figcaption>Tuna and shrimp slices in sauce<br>
+          $3.99 + tax</figcaption>
+    </div>
+    <div class="column">    
+      <img src='box.jpg' width="300px" height="300px" alt='cardboard box with a lid'>
+        <figcaption>[1+1] Sturdy cardboard box with a LID!<br>
+          <em>EVENT:</em> Get 2 boxes for the price of 1!<br>
+          $9.99 + tax</figcaption>
+    </div>    
+</div>
+
+<!-- Footer -->
+<footer class="copyright" style="color: rosybrown">
+  <p>© 2023, Caddiction</p>
+  <p>Images from Food Lion, Pet Smart, Amazon, Royal Canin, Purina</p>
+</footer>  
+</body>  
+</html>

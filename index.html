@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    
+    h1, h2, p {
+      font-family: "Sans-serif";
+      letter-spacing: 1px;
+    }
+
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    
+    .nav {
+      height: 50px;
+      border-bottom: 1px solid rosybrown;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-right {
+      font-family: sans-serif;    
+      display: flex;
+      margin-left: auto;
+    }
+
+    .nav-item {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    a {
+    color: brown;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: rosybrown; 
+    text-decoration:none; 
+    cursor:pointer;  
+    }
+
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #ebd6c0;
+      color: brown;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .leftside {
+      flex: 30%;
+      background-color: #f7e6d0;
+      padding: 20px;
+    }
+    
+    .main {
+      flex: 70%;
+      padding: 20px;
+    }
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .copyright {
+      padding: 15px;
+      text-align: left;
+      background: #ebd6c0;
+    }
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: brown;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<!-- Nav Bar -->
+<body style='background-color: #fff3e6;'>
+  <div class="nav">
+    <div class="company-name">
+      <a href='index.html'><img src='logo.jpg' width="130px", height="50px"></a>
+    </div>
+    <div class="nav-right">
+      <div class="nav-item"><a href='toypage.html'>Cat's must-haves</a></div>
+      <div class="nav-item"><a href='contact.html'>Contact</a></div>
+    </div>
+  </div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Caddition</h1>
+  <p>Organic Cat Food</p>
+  <p>Est. 2023</p>
+</div>
+
+<!-- Content -->
+<div class="row">
+  <div class="leftside">
+    <h2 style="text-align: left; color: brown"><strong>Our Goal</strong></h2>
+    <p style="color: #b36d54">To become the premier destination for organic cat food enthusiasts by providing a wide range of high-quality, sustainably sourced, and nutritionally balanced products while promoting responsible pet ownership and eco-conscious values.</p>
+    <img src="mixedgreen.jpg" width="500px" height="375px">
+    <!-- <iframe id="ytplayer" width="420" height="315" src="https://www.youtube.com/embed/Hz74wvONsS4?autoplay=1&mute=1" frameborder='0'></iframe> -->
+    <figcaption style="color: rosybrown">Home grown organic vegetables used for Caddiction cat food!</figcaption>
+    </div>
+  <div class="main">
+    <h2 style="color: brown" align="center">Enter to WIN! Happy cat of the month.</h2>
+    <p style="color: #b36d54" align="center">Take a photo of your cat enjoying Caddiction product and send it to 'event@caddiction.com'<br>
+    Winner will receive a FREE Caddiction dry cat food (5kg). </p>
+    <img align="middle" src="eatingcat.jpg" alt="cat leaking face">
+    <figcaption style="color: rosybrown">Congrats! This month's happy cat 'Tommy' enjoying Caddiction organic cat food</figcaption>
+    <div class="column">
+      <form>
+        <p style="color: brown">Sign up for our Newsletter for the latest news and promotions!</p>
+      <label for="name"><input id="number" type="text" name="info" align="right" placeholder="Name" required></label><br>    
+      <label for="email"><input id="email" type="text" name="info" align="right" placeholder="Email" required></label><br>
+      <input type="submit" value="Sign me up!"></label>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="copyright" style="color: rosybrown">
+  <p>© 2023, Caddiction</p>
+  <p>Images from YouTube Dreamstime, Penningston Seed. Logo by Looka</p>
+</footer>  
+</body>
+</html>
